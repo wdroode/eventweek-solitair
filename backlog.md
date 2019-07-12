@@ -1,10 +1,10 @@
 # Product Backlog
 
 This is your **Product Backlog**, a list of items for your project to succeed. You will be practising test driven developement.
-The good news is that testcases have been written for you. To be able to complete this project all you need to do is pass the 
+The good news is that test cases have been written for you. To be able to complete this project all you need to do is pass the 
 existing tests. There is a order which implementations to write. This backlog is prioritized to this test order.
-Not all task are in the backlog only the most significant ones. It's up for the team to add the other tasks based
-on the work your team sees.
+Not all task are in the backlog only the most significant ones. It's up for you to add the other tasks based
+on the work you see.
 
 | #     | Description                                       | Difficulty
 |-------|:-------------------------------------------------:|----------------------
@@ -34,7 +34,6 @@ before working on the backlog as stated above. Subjects you need to think about 
     - A IDE 
     - Git 
 - Versioning is in place and the team has been thinking about a branching strategy
-- The team has made appointments about how to work (Like for example pair programming)
 
 
 
