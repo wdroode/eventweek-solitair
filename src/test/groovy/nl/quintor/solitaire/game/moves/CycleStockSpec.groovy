@@ -53,7 +53,7 @@ class CycleStockSpec extends Specification {
     def "Testing Cycle with empty waste and multiple cards in stock" () {
         given: "A empty waste and multiple cards in stock"
         def gameState = TestUtil.createGameWithEmptyStockAndWaste()
-        gameState.stock << [new Card(Suit.CLUBS, Rank.ACE)]
+        gameState.stock << new Card(Suit.CLUBS, Rank.ACE)
         gameState.stock << new Card(Suit.CLUBS, Rank.TWO)
         when:"A Cycle move is payed"
         new CycleStock().createInstance("C").apply(gameState)
