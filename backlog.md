@@ -8,9 +8,9 @@ on the work your team sees.
 
 | #     | Description                                       | Difficulty
 |-------|:-------------------------------------------------:|----------------------
-| 1     | Write the implementations for CardMoveChecks deckLevelCheck method| Easy
-| 2     | Write the implementations for CardMoveChecks opposingColor method| Easy
-| 3     | Write the implementations for CardMoveChecks cardMoveCheck method| Easy
+| 1     | Write the implementations for CardMoveChecks deckLevelCheck method| Easy (Berend)
+| 2     | Write the implementations for CardMoveChecks opposingColor method| Easy (Audi)
+| 3     | Write the implementations for CardMoveChecks cardMoveCheck method| Easy (Bastiaan)
 | 4     | Write the implementation for the GameStateController init method| Difficult
 | 5     | Write the implementations for CardMoveChecks checkPlayerInput method| Moderate
 | 6     | Write the implementations for GameStateParser PadAndAdd method| Moderate
@@ -35,7 +35,6 @@ before working on the backlog as stated above. Subjects you need to think about 
     - Git 
 - Versioning is in place and the team has been thinking about a branching strategy
 - The team has made appointments about how to work (Like for example pair programming)
-
 
 
 
