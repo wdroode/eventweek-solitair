@@ -95,7 +95,7 @@ public class CardMoveChecks {
      */
     static boolean opposingColor(Card card1, Card card2){
         // TODO: Write implementation
-        return true;
+        return card1.isRed() != card2.isRed();
     }
 
     /**
