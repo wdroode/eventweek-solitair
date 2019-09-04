@@ -129,4 +129,11 @@ public final class Card implements Comparable<Card> {
     public String toShortString() {
         return shortDescription;
     }
+
+    //returns true if the card is red, false if the card is black
+    public boolean isRed(){
+        //a boolean return value for each suit [clubs, diamonds, hearts, spades, joker]
+        boolean[] suitValues = {false, true, true, false, getRank() == Rank.JOKER_RED};
+        return suitValues[getSuit().ordinal()];
+    }
 }
