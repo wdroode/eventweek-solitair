@@ -8,16 +8,16 @@ on the work your team sees.
 
 | #     | Description                                       | Difficulty
 |-------|:-------------------------------------------------:|----------------------
-| 1     | Write the implementations for CardMoveChecks deckLevelCheck method| Easy | Berend
+| 1     | ~~Write the implementations for CardMoveChecks deckLevelCheck method~~| Easy | Berend
 | 2     | ~~Write the implementations for CardMoveChecks opposingColor method~~| Easy | Audi
-| 3     | Write the implementations for CardMoveChecks cardMoveCheck method| Easy 
-| 4     | Write the implementation for the GameStateController init method| Difficult | Audi
-| 5     | Write the implementations for CardMoveChecks checkPlayerInput method| Moderate
-| 6     | Write the implementations for GameStateParser PadAndAdd method| Moderate
-| 7     | Write the implementations for GameStateParser cardStringOrNull method| Easy | Bastiaan
-| 8     | Write the implementations for GameStateParser PadAndAdd method| Moderate
-| 9     | Write the implementations for GameStateParser printRow method| Moderate
-| 10    | Write the implementations for GameStateParser parseGameState method| DIfficult
+| 3     | ~~Write the implementations for CardMoveChecks cardMoveCheck method~~| Easy 
+| 4     | ~~Write the implementation for the GameStateController init method~~| Difficult | Audi
+| 5     | ~~Write the implementations for CardMoveChecks checkPlayerInput method~~| Moderate | Berend
+| 6     | Write the implementations for GameStateParser PadAndAdd method| Moderate | Bastiaan
+| 7     | ~~Write the implementations for GameStateParser cardStringOrNull method~~| Easy | Bastiaan
+| 8     | Write the implementations for GameStateParser PadAndAdd method| Moderate | Bastiaan
+| 9     | Write the implementations for GameStateParser printRow method| Moderate | Berend
+| 10    | Write the implementations for GameStateParser parseGameState method| DIfficult 
 | 11    | Write the implementation for the GameStateController winDetection method| Moderate
 | 12    | Write the implementation for the GameStateController applyBonusScore method| Moderate
 | 13    | Write the implementation for the GameStateController applyTimePenalty method| Moderate
