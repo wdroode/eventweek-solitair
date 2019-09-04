@@ -1,9 +1,12 @@
 package nl.quintor.solitaire.ui.cli;
 
+import nl.quintor.solitaire.models.card.Card;
 import nl.quintor.solitaire.models.deck.Deck;
 import nl.quintor.solitaire.models.state.GameState;
 
 import java.util.Collection;
+
+import static javax.swing.UIManager.get;
 
 /**
  * {@link GameState} parser for terminal printing. The class is not instantiable, all constructors are private.
@@ -68,8 +71,13 @@ class GameStateParser {
      * @return the requested card or null
      */
     protected static String getCardStringOrNull(Deck deck, int index){
-        // TODO: Write implementation
-        return null;
+        try {
+            Card card = deck.get(index);
+            return card.toShortString();
+        }
+        catch (Exception e){
+            return null;
+        }
     }
 
     /**
